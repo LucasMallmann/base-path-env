@@ -19,8 +19,6 @@ const getBasePath = () => {
     : `/${traillingBasePath}`;
 };
 
-console.log(getBasePath());
-
 module.exports = {
   getBasePath,
 };
