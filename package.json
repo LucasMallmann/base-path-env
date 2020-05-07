@@ -1,6 +1,6 @@
 {
   "name": "base-path-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Função útil para obter o base path através de um variável ambiente",
   "main": "index.js",
   "dependencies": {
