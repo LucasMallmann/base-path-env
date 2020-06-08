@@ -1,6 +1,6 @@
 {
   "name": "base-path-env",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Util function to get the basePath env variable.",
   "main": "build/index.js",
   "dependencies": {
