@@ -2,7 +2,7 @@
   "name": "base-path-env",
   "version": "1.0.3",
   "description": "Util function to get the basePath env variable.",
-  "main": "index.js",
+  "main": "build/index.js",
   "dependencies": {
     "dotenv": "^8.2.0"
   },
@@ -10,9 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/lucasmallmann/base-path-env.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel test.js -d build"
   },
   "keywords": [
     "nodejs"

@@ -1,9 +1,10 @@
-require("dotenv").config();
+// require("dotenv").config();
+import "dotenv/config";
 
 /**
  * Gets the base path from the enviroment variable
  */
-const getBasePath = () => {
+export const getBasePath = () => {
   if (!process.env.BASE_PATH) {
     return "";
   }
@@ -17,8 +18,4 @@ const getBasePath = () => {
   return traillingBasePath.startsWith("/")
     ? traillingBasePath
     : `/${traillingBasePath}`;
-};
-
-module.exports = {
-  getBasePath,
 };
